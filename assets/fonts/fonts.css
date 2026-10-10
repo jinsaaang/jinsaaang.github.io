@@ -43,9 +43,9 @@
 
 /* Site title */
 @font-face {
-  font-family: 'Briem Hand';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 500;
   font-display: swap;
-  src: url(briem-hand-0.ttf) format('truetype');
+  src: url(playfair-display-italic.ttf) format('truetype');
 }

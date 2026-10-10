@@ -34,7 +34,7 @@ p{color:var(--secondary)}
 .skip-link:focus{top:10px}
 .wrap{max-width:1210px;padding:0 55px;margin:auto}
 .top{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 0 24px;border-bottom:1px solid var(--line)}
-.logo{display:flex;align-items:center;gap:11px;color:var(--text);font:600 13px "Manrope","Inter",Arial,sans-serif;letter-spacing:-.2px;white-space:nowrap}
+.logo{display:flex;align-items:center;gap:11px;color:var(--text);font:600 18px "Manrope","Inter",Arial,sans-serif;letter-spacing:-.2px;white-space:nowrap}
 .logo-mark{display:block;width:13px;height:13px;background:var(--frame);box-shadow:4px -4px 0 var(--pastel)}
 .header-tools{display:flex;align-items:center;gap:32px}
 nav{display:flex;align-items:center;gap:24px;font-size:12px}
@@ -129,3 +129,5 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:23px 0 31px;b
 @media(max-width:760px){.collaboration{flex-direction:column;align-items:flex-start;gap:18px;padding:24px;margin-top:0}.collaboration h2{font-size:18px}.collaboration p{font-size:13px}}
 
 .paper-note{font-size:11px;line-height:1.7;color:var(--secondary);margin-top:6px;font-style:italic}
+
+@media(max-width:540px){.logo{font-size:17px}}

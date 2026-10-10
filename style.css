@@ -133,8 +133,8 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:23px 0 31px;b
 @media(max-width:540px){.logo{font-size:17px}}
 
 /* A personal, understated wordmark. */
-.logo{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:500;font-size:26px;letter-spacing:-.3px;line-height:1.25}
-@media(max-width:540px){.logo{font-size:24px}}
+.logo{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:500;font-size:25px;letter-spacing:-.3px;line-height:1.25}
+@media(max-width:540px){.logo{font-size:23px}}
 
 /* Adapt to the actual content width, including the profile sidebar. */
 .project-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:26px}

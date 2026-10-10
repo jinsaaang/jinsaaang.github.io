@@ -138,3 +138,5 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:23px 0 31px;b
 
 /* Adapt to the actual content width, including the profile sidebar. */
 .project-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:26px}
+
+.authors sup{font-size:.75em;line-height:0;vertical-align:super}

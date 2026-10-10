@@ -43,9 +43,9 @@
 
 /* Site title */
 @font-face {
-  font-family: 'Bodoni Moda';
+  font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(bodoni-moda-0.ttf) format('truetype');
+  src: url(dm-serif-display-0.ttf) format('truetype');
 }

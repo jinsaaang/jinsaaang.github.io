@@ -136,5 +136,5 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:23px 0 31px;b
 .logo{font-family:"Caveat","Segoe Print",cursive;font-style:normal;font-weight:500;font-size:32px;letter-spacing:0;line-height:1.1}
 @media(max-width:540px){.logo{font-size:30px}}
 
-/* Projects remain a vertical list on every screen size. */
-.project-grid{grid-template-columns:minmax(0,1fr);gap:25px}
+/* Adapt to the actual content width, including the profile sidebar. */
+.project-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:26px}

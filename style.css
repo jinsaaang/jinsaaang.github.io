@@ -131,3 +131,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:23px 0 31px;b
 .paper-note{font-size:11px;line-height:1.7;color:var(--secondary);margin-top:6px;font-style:italic}
 
 @media(max-width:540px){.logo{font-size:17px}}
+
+/* A personal, understated wordmark. */
+.logo{font-family:"Lora",Georgia,serif;font-style:italic;font-weight:500;font-size:23px;letter-spacing:-.5px}
+@media(max-width:540px){.logo{font-size:21px}}

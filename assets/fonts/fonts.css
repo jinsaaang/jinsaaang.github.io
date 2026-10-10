@@ -40,3 +40,12 @@
   font-display: swap;
   src: url(font-5.ttf) format('truetype');
 }
+
+/* Site title */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(lora-italic-0.ttf) format('truetype');
+}

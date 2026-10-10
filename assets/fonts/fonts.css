@@ -43,9 +43,9 @@
 
 /* Site title */
 @font-face {
-  font-family: 'Caveat';
+  font-family: 'Briem Hand';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-display: swap;
-  src: url(caveat-medium-0.ttf) format('truetype');
+  src: url(briem-hand-0.ttf) format('truetype');
 }

@@ -140,3 +140,10 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:23px 0 31px;b
 .project-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:26px}
 
 .authors sup{font-size:.75em;line-height:0;vertical-align:super}
+
+/* Visitor counts follow the footer palette in both themes. */
+.visitor-counter{display:flex;align-items:center;gap:10px;font-size:11px;color:var(--secondary);font-variant-numeric:tabular-nums}
+.visitor-counter[hidden]{display:none}
+.visitor-counter strong{font-weight:500;color:var(--accent);margin-left:4px}
+.visitor-divider{color:var(--frame)}
+@media print{.visitor-counter{display:none}}
